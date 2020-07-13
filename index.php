@@ -5,14 +5,9 @@
 
  for($d=1; $d<=31; $d++) {
      $time=mktime(12,0,0,$month,$d,$year);
-    //  if (date('m',$time)==$month)
-
         $list[]=date('d.m.Y',$time);
  }
-//  echo "<pre>";
-//     print_r($list);
-//  "</pre>";
-//  echo $list[1]
+
 ?>
 
 
